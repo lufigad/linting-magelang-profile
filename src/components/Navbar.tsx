@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-smooth ${
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? "bg-background/95 backdrop-blur-md shadow-soft"
           : "bg-transparent"
       }`}
@@ -45,12 +45,18 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button
               onClick={() => scrollToSection("tentang")}
               className="text-foreground hover:text-primary transition-smooth font-medium"
             >
               Tentang Kami
+            </button>
+            <button
+              onClick={() => scrollToSection("keunggulan")}
+              className="text-foreground hover:text-primary transition-smooth font-medium"
+            >
+              Keunggulan
             </button>
             <button
               onClick={() => scrollToSection("layanan")}
@@ -63,6 +69,12 @@ const Navbar = () => {
               className="text-foreground hover:text-primary transition-smooth font-medium"
             >
               Galeri
+            </button>
+            <button
+              onClick={() => scrollToSection("faq")}
+              className="text-foreground hover:text-primary transition-smooth font-medium"
+            >
+              FAQ
             </button>
             <Button
               onClick={() => scrollToSection("kontak")}
@@ -83,12 +95,18 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pb-6 space-y-4 animate-fade-in">
+          <div className="md:hidden pb-6 space-y-4 animate-fade-in bg-background/95 backdrop-blur-md rounded-lg p-4 -mx-4">
             <button
               onClick={() => scrollToSection("tentang")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
             >
               Tentang Kami
+            </button>
+            <button
+              onClick={() => scrollToSection("keunggulan")}
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
+            >
+              Keunggulan
             </button>
             <button
               onClick={() => scrollToSection("layanan")}
@@ -101,6 +119,12 @@ const Navbar = () => {
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
             >
               Galeri
+            </button>
+            <button
+              onClick={() => scrollToSection("faq")}
+              className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
+            >
+              FAQ
             </button>
             <Button
               onClick={() => scrollToSection("kontak")}
