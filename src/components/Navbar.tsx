@@ -37,10 +37,12 @@ const Navbar = () => {
               <span className="text-primary-foreground font-bold text-xl">LM</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="font-bold text-lg text-foreground">
+              <h1 className={`font-bold text-lg ${isScrolled || isMobileMenuOpen ? "text-foreground" : "text-white"}`}>
                 PT Linting Magelang Sejahtera
               </h1>
-              <p className="text-xs text-muted-foreground">Jasa Linting Rokok Profesional</p>
+              <p className={`text-xs ${isScrolled || isMobileMenuOpen ? "text-muted-foreground" : "text-white/80"}`}>
+                Jasa Linting Rokok Profesional
+              </p>
             </div>
           </div>
 
@@ -48,31 +50,41 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button
               onClick={() => scrollToSection("tentang")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className={`${
+                isScrolled ? "text-foreground" : "text-white"
+              } hover:text-primary transition-smooth font-medium`}
             >
               Tentang Kami
             </button>
             <button
               onClick={() => scrollToSection("keunggulan")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className={`${
+                isScrolled ? "text-foreground" : "text-white"
+              } hover:text-primary transition-smooth font-medium`}
             >
               Keunggulan
             </button>
             <button
               onClick={() => scrollToSection("layanan")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className={`${
+                isScrolled ? "text-foreground" : "text-white"
+              } hover:text-primary transition-smooth font-medium`}
             >
               Layanan
             </button>
             <button
               onClick={() => scrollToSection("galeri")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className={`${
+                isScrolled ? "text-foreground" : "text-white"
+              } hover:text-primary transition-smooth font-medium`}
             >
               Galeri
             </button>
             <button
               onClick={() => scrollToSection("faq")}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
+              className={`${
+                isScrolled ? "text-foreground" : "text-white"
+              } hover:text-primary transition-smooth font-medium`}
             >
               FAQ
             </button>
@@ -86,7 +98,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-foreground"
+            className={`md:hidden ${isScrolled || isMobileMenuOpen ? "text-foreground" : "text-white"}`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
