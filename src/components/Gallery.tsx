@@ -7,11 +7,11 @@ import gallery6 from "@/assets/gallery-6.jpg";
 
 const Gallery = () => {
   const images = [
-    { src: gallery1, alt: "Proses linting manual oleh tenaga kerja terampil" },
-    { src: gallery2, alt: "Mesin linting semi otomatis modern" },
-    { src: gallery3, alt: "Hasil produksi rokok berkualitas tinggi" },
+    { src: gallery1, alt: "Proses produksi manual oleh tenaga kerja terampil" },
+    { src: gallery2, alt: "Mesin produksi semi otomatis modern" },
+    { src: gallery3, alt: "Hasil produksi berkualitas tinggi" },
     { src: gallery4, alt: "Tim produksi profesional PT Satu Desa Mandiri" },
-    { src: gallery5, alt: "Bahan baku tembakau berkualitas premium" },
+    { src: gallery5, alt: "Bahan baku berkualitas premium" },
     { src: gallery6, alt: "Area pengemasan dengan standar higienis tinggi" },
   ];
 

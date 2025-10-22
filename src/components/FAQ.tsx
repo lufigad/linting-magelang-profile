@@ -8,24 +8,24 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "Apa saja jenis layanan linting yang tersedia?",
+      question: "Apa saja jenis layanan produksi yang tersedia?",
       answer:
-        "Kami menyediakan layanan linting manual dan semi otomatis. Linting manual cocok untuk produksi premium dengan detail tinggi, sedangkan semi otomatis efisien untuk volume besar dengan tetap menjaga kualitas.",
+        "Kami menyediakan layanan produksi manual dan semi otomatis. Produksi manual cocok untuk hasil premium dengan detail tinggi, sedangkan semi otomatis efisien untuk volume besar dengan tetap menjaga kualitas.",
     },
     {
-      question: "Berapa minimal order untuk menggunakan jasa linting?",
+      question: "Berapa minimal order untuk menggunakan jasa produksi?",
       answer:
         "Kami sangat fleksibel dalam volume produksi. Minimal order dapat disesuaikan dengan kebutuhan Anda, mulai dari pesanan kecil hingga skala besar. Silakan hubungi kami untuk diskusi lebih detail.",
     },
     {
       question: "Berapa lama waktu pengerjaan produksi?",
       answer:
-        "Waktu pengerjaan tergantung pada volume dan jenis linting yang dipilih. Untuk estimasi yang akurat, kami akan mengevaluasi pesanan Anda terlebih dahulu. Kami berkomitmen untuk menyelesaikan tepat waktu sesuai kesepakatan.",
+        "Waktu pengerjaan tergantung pada volume dan jenis produksi yang dipilih. Untuk estimasi yang akurat, kami akan mengevaluasi pesanan Anda terlebih dahulu. Kami berkomitmen untuk menyelesaikan tepat waktu sesuai kesepakatan.",
     },
     {
-      question: "Apakah tersedia layanan konsultasi untuk produksi rokok?",
+      question: "Apakah tersedia layanan konsultasi untuk produksi?",
       answer:
-        "Ya, kami menyediakan layanan konsultasi gratis untuk membantu Anda mengoptimalkan proses produksi, pemilihan metode linting yang tepat, dan strategi efisiensi produksi.",
+        "Ya, kami menyediakan layanan konsultasi gratis untuk membantu Anda mengoptimalkan proses produksi, pemilihan metode yang tepat, dan strategi efisiensi produksi.",
     },
     {
       question: "Bagaimana standar kebersihan dan kualitas produksi?",
@@ -33,12 +33,12 @@ const FAQ = () => {
         "Kami menerapkan standar higienis tinggi dengan fasilitas produksi modern. Setiap tahap produksi melalui quality control ketat dan dikerjakan oleh tenaga profesional berpengalaman untuk menjamin kualitas terbaik.",
     },
     {
-      question: "Apakah bisa melayani berbagai merek rokok?",
+      question: "Apakah bisa melayani berbagai merek produk?",
       answer:
-        "Tentu saja! Kami berpengalaman melayani berbagai merek rokok dengan spesifikasi yang berbeda-beda. Tim kami akan menyesuaikan dengan kebutuhan dan standar merek Anda.",
+        "Tentu saja! Kami berpengalaman melayani berbagai merek produk dengan spesifikasi yang berbeda-beda. Tim kami akan menyesuaikan dengan kebutuhan dan standar merek Anda.",
     },
     {
-      question: "Bagaimana cara memesan layanan linting?",
+      question: "Bagaimana cara memesan layanan produksi?",
       answer:
         "Anda dapat menghubungi kami melalui formulir kontak di website, email, atau telepon. Tim kami akan segera merespons untuk diskusi kebutuhan, quotation, dan detail pesanan Anda.",
     },
