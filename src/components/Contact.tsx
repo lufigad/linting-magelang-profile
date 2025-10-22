@@ -144,7 +144,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Alamat</h4>
                     <p className="text-muted-foreground">
-                      Magelang, Jawa Tengah, Indonesia
+                      Jl. Kertarejasa No 39 Kel. Candirenggo, Kec. Singosari
+                      Kabupaten Malang Jawa Timur 65153
                     </p>
                   </div>
                 </div>
@@ -156,7 +157,7 @@ const Contact = () => {
                       href="mailto:info@lintingmagelang.co.id"
                       className="text-muted-foreground hover:text-primary transition-smooth"
                     >
-                      info@lintingmagelang.co.id
+                      -
                     </a>
                   </div>
                 </div>
@@ -167,10 +168,10 @@ const Contact = () => {
                       Telepon
                     </h4>
                     <a
-                      href="tel:+6281200000000"
+                      href="tel:+6285842881714"
                       className="text-muted-foreground hover:text-primary transition-smooth"
                     >
-                      +62 812-0000-0000
+                      +62 858-4288-1714
                     </a>
                   </div>
                 </div>
@@ -213,7 +214,7 @@ const Contact = () => {
             {/* Google Maps Embed */}
             <Card className="p-4 bg-card shadow-soft border-border overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126646.23165489633!2d110.14204245!3d-7.4705339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a866e3c8cfee3%3A0xb56da89eaa0ae75!2sMagelang%2C%20Kota%20Magelang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d131913.0909680242!2d112.58763134478856!3d-7.847653372634769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62b27d10dfac7%3A0x9de22479abbb31e5!2sKec.%20Singosari%2C%20Kabupaten%20Malang%2C%20Jawa%20Timur!5e1!3m2!1sid!2sid!4v1761122735535!5m2!1sid!2sid"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
@@ -222,6 +223,16 @@ const Contact = () => {
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Lokasi PT Satu Desa Mandiri"
               />
+              {/* <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126646.23165489633!2d110.14204245!3d-7.4705339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a866e3c8cfee3%3A0xb56da89eaa0ae75!2sMagelang%2C%20Kota%20Magelang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1234567890"
+                width="100%"
+                height="250"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Lokasi PT Satu Desa Mandiri"
+              /> */}
             </Card>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Footer = () => {
               © {currentYear} PT Satu Desa Mandiri. All rights reserved.
             </p>
             <p className="text-xs text-background/70 mt-1">
-              Mitra Profesional di Magelang
+              Jasa Produksi Profesional di Magelang
             </p>
           </div>
 

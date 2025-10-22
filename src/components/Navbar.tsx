@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">
-                LM
+                SDM
               </span>
             </div>
             <div className="hidden sm:block">
@@ -55,7 +55,7 @@ const Navbar = () => {
                     : "text-white/80"
                 }`}
               >
-                Mitra Profesional
+                Jasa Produksi Profesional
               </p>
             </div>
           </div>
