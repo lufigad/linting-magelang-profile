@@ -10,7 +10,7 @@ const Gallery = () => {
     { src: gallery1, alt: "Proses linting manual oleh tenaga kerja terampil" },
     { src: gallery2, alt: "Mesin linting semi otomatis modern" },
     { src: gallery3, alt: "Hasil produksi rokok berkualitas tinggi" },
-    { src: gallery4, alt: "Tim produksi profesional PT Linting Magelang Sejahtera" },
+    { src: gallery4, alt: "Tim produksi profesional PT Satu Desa Mandiri" },
     { src: gallery5, alt: "Bahan baku tembakau berkualitas premium" },
     { src: gallery6, alt: "Area pengemasan dengan standar higienis tinggi" },
   ];

@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Fasilitas produksi PT Linting Magelang Sejahtera"
+          alt="Fasilitas produksi PT Satu Desa Mandiri"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/50" />
@@ -25,14 +25,14 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-background mb-6 animate-fade-in">
-          Mitra Produksi Rokok Linting
+          Mitra Produksi Terpercaya
           <br />
-          <span className="text-secondary">Terpercaya di Magelang</span>
+          <span className="text-secondary">Solusi Terbaik Untuk Anda</span>
         </h1>
         <p className="text-lg sm:text-xl text-background/90 mb-8 max-w-2xl mx-auto animate-fade-in">
-          Layanan linting rokok berkualitas tinggi dengan tenaga kerja terampil dan
-          berpengalaman. Kami mengutamakan presisi, efisiensi, dan standar higienis
-          dalam setiap proses produksi.
+          Layanan berkualitas tinggi dengan tenaga kerja terampil dan
+          berpengalaman. Kami mengutamakan presisi, efisiensi, dan standar
+          higienis dalam setiap proses produksi.
         </p>
         <Button
           onClick={scrollToContact}

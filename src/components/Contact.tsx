@@ -3,7 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
-import { MapPin, Mail, Phone, Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  MapPin,
+  Mail,
+  Phone,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -16,7 +23,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
@@ -31,7 +38,7 @@ const Contact = () => {
       title: "Pesan Terkirim!",
       description: "Terima kasih, kami akan segera menghubungi Anda.",
     });
-    
+
     setFormData({ name: "", email: "", message: "" });
   };
 
@@ -53,7 +60,8 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tertarik dengan layanan kami? Hubungi kami untuk konsultasi dan informasi lebih lanjut
+            Tertarik dengan layanan kami? Hubungi kami untuk konsultasi dan
+            informasi lebih lanjut
           </p>
         </div>
 
@@ -65,7 +73,10 @@ const Contact = () => {
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Nama Lengkap
                 </label>
                 <Input
@@ -79,7 +90,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Email
                 </label>
                 <Input
@@ -93,7 +107,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Pesan
                 </label>
                 <Textarea
@@ -106,7 +123,10 @@ const Contact = () => {
                   className="bg-background border-input"
                 />
               </div>
-              <Button type="submit" className="w-full bg-primary text-primary-foreground hover:opacity-90">
+              <Button
+                type="submit"
+                className="w-full bg-primary text-primary-foreground hover:opacity-90"
+              >
                 Kirim Pesan
               </Button>
             </form>
@@ -143,7 +163,9 @@ const Contact = () => {
                 <div className="flex items-start space-x-4">
                   <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-medium text-foreground mb-1">Telepon</h4>
+                    <h4 className="font-medium text-foreground mb-1">
+                      Telepon
+                    </h4>
                     <a
                       href="tel:+6281200000000"
                       className="text-muted-foreground hover:text-primary transition-smooth"
@@ -198,7 +220,7 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Lokasi PT Linting Magelang Sejahtera"
+                title="Lokasi PT Satu Desa Mandiri"
               />
             </Card>
           </div>

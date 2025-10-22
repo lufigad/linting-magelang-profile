@@ -34,14 +34,28 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">LM</span>
+              <span className="text-primary-foreground font-bold text-xl">
+                LM
+              </span>
             </div>
             <div className="hidden sm:block">
-              <h1 className={`font-bold text-lg ${isScrolled || isMobileMenuOpen ? "text-foreground" : "text-white"}`}>
-                PT Linting Magelang Sejahtera
+              <h1
+                className={`font-bold text-lg ${
+                  isScrolled || isMobileMenuOpen
+                    ? "text-foreground"
+                    : "text-white"
+                }`}
+              >
+                PT Satu Desa Mandiri
               </h1>
-              <p className={`text-xs ${isScrolled || isMobileMenuOpen ? "text-muted-foreground" : "text-white/80"}`}>
-                Jasa Linting Rokok Profesional
+              <p
+                className={`text-xs ${
+                  isScrolled || isMobileMenuOpen
+                    ? "text-muted-foreground"
+                    : "text-white/80"
+                }`}
+              >
+                Mitra Profesional
               </p>
             </div>
           </div>
@@ -64,14 +78,14 @@ const Navbar = () => {
             >
               Keunggulan
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("layanan")}
               className={`${
                 isScrolled ? "text-foreground" : "text-white"
               } hover:text-primary transition-smooth font-medium`}
             >
               Layanan
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("galeri")}
               className={`${
@@ -98,7 +112,9 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden ${isScrolled || isMobileMenuOpen ? "text-foreground" : "text-white"}`}
+            className={`md:hidden ${
+              isScrolled || isMobileMenuOpen ? "text-foreground" : "text-white"
+            }`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -120,12 +136,12 @@ const Navbar = () => {
             >
               Keunggulan
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("layanan")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
             >
               Layanan
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("galeri")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"

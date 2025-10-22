@@ -4,20 +4,22 @@ import { Card } from "@/components/ui/card";
 const About = () => {
   const advantages = [
     {
-      title: "Kualitas Linting Presisi dan Rapi",
-      description: "Setiap batang rokok dilinting dengan ketelitian tinggi untuk hasil sempurna",
+      title: "Kualitas Presisi dan Rapi",
+      description: "Ketelitian tinggi untuk hasil sempurna",
     },
     {
       title: "Tenaga Kerja Berpengalaman",
-      description: "Tim profesional dengan pengalaman bertahun-tahun di industri linting rokok",
+      description: "Tim profesional dengan pengalaman di berbagai industri ",
     },
     {
       title: "Proses Produksi Higienis",
-      description: "Standar kebersihan tinggi dan kontrol kualitas di setiap tahap produksi",
+      description:
+        "Standar kebersihan tinggi dan kontrol kualitas di setiap tahap produksi",
     },
     {
       title: "Fleksibel dalam Volume Produksi",
-      description: "Mampu melayani pesanan dalam berbagai skala, dari kecil hingga besar",
+      description:
+        "Mampu melayani pesanan dalam berbagai skala, dari kecil hingga besar",
     },
   ];
 
@@ -30,15 +32,16 @@ const About = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
           <p className="text-lg text-muted-foreground leading-relaxed">
-            PT Linting Magelang Sejahtera adalah perusahaan yang bergerak di bidang jasa
-            linting rokok dengan tenaga kerja terampil dan berpengalaman. Berlokasi di
-            Magelang, Jawa Tengah, kami menyediakan layanan linting untuk berbagai merek
-            rokok dengan kualitas tinggi dan efisiensi produksi yang terjamin.
+            PT Satu Desa Mandiri adalah perusahaan yang bergerak di bidang jasa
+            produksi dengan tenaga kerja terampil dan berpengalaman. Dengan
+            dedikasi penuh terhadap kualitas dan kepuasan klien, kami telah
+            menjadi mitra terpercaya bagi berbagai produsen di Indonesia.
           </p>
-          <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
-            Dengan dedikasi penuh terhadap kualitas dan kepuasan klien, kami telah menjadi
-            mitra terpercaya bagi berbagai produsen rokok di Indonesia.
-          </p>
+          {/* <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
+            Dengan dedikasi penuh terhadap kualitas dan kepuasan klien, kami
+            telah menjadi mitra terpercaya bagi berbagai produsen rokok di
+            Indonesia.
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -53,7 +56,9 @@ const About = () => {
                   <h3 className="font-semibold text-lg text-foreground mb-2">
                     {advantage.title}
                   </h3>
-                  <p className="text-muted-foreground">{advantage.description}</p>
+                  <p className="text-muted-foreground">
+                    {advantage.description}
+                  </p>
                 </div>
               </div>
             </Card>

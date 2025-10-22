@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
             <p className="text-sm">
-              © {currentYear} PT Linting Magelang Sejahtera. All rights reserved.
+              © {currentYear} PT Satu Desa Mandiri. All rights reserved.
             </p>
             <p className="text-xs text-background/70 mt-1">
-              Jasa Linting Rokok Profesional di Magelang
+              Mitra Profesional di Magelang
             </p>
           </div>
 
