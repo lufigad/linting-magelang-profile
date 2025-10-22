@@ -7,7 +7,7 @@ const Services = () => {
       icon: Hand,
       title: "Linting Manual",
       description:
-        "Layanan linting rokok secara manual dengan keahlian tangan terampil untuk hasil berkualitas tinggi dan presisi sempurna.",
+        "Mitra Produksi Terpercaya secara manual dengan keahlian tangan terampil untuk hasil berkualitas tinggi dan presisi sempurna.",
     },
     {
       icon: Cog,
@@ -17,15 +17,15 @@ const Services = () => {
     },
     {
       icon: Package,
-      title: "Pengemasan Rokok",
+      title: "Mitra Produksi Terpercaya",
       description:
-        "Layanan pengemasan rokok profesional dengan standar kebersihan tinggi dan packaging yang rapi sesuai kebutuhan klien.",
+        "Mitra Produksi Terpercaya profesional dengan standar kebersihan tinggi dan packaging yang rapi sesuai kebutuhan klien.",
     },
     {
       icon: MessageSquare,
       title: "Konsultasi Produksi",
       description:
-        "Konsultasi mengenai strategi produksi rokok linting, optimasi proses, dan solusi efisiensi untuk bisnis Anda.",
+        "Konsultasi mengenai strategi produksi, optimasi proses, dan solusi efisiensi untuk bisnis Anda.",
     },
   ];
 
@@ -38,8 +38,8 @@ const Services = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Kami menyediakan berbagai layanan linting rokok profesional untuk memenuhi
-            kebutuhan produksi Anda
+            Kami menyediakan berbagai layanan produksi profesional untuk
+            memenuhi kebutuhan produksi Anda
           </p>
         </div>
 

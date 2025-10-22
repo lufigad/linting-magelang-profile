@@ -39,7 +39,7 @@ const About = () => {
           </p>
           {/* <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
             Dengan dedikasi penuh terhadap kualitas dan kepuasan klien, kami
-            telah menjadi mitra terpercaya bagi berbagai produsen rokok di
+            telah menjadi mitra terpercaya bagi berbagai produsen terpercaya di
             Indonesia.
           </p> */}
         </div>

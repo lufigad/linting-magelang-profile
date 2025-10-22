@@ -154,7 +154,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-foreground mb-1">Email</h4>
                     <a
-                      href="mailto:info@lintingmagelang.co.id"
+                      href="mail"
                       className="text-muted-foreground hover:text-primary transition-smooth"
                     >
                       -
