@@ -60,8 +60,7 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tertarik dengan layanan kami? Hubungi kami untuk konsultasi dan
-            informasi lebih lanjut
+            Dengan siap membantu Anda sepenuh hati
           </p>
         </div>
 
@@ -177,7 +176,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-border">
+              {/* <div className="mt-8 pt-6 border-t border-border">
                 <h4 className="font-medium text-foreground mb-4">Ikuti Kami</h4>
                 <div className="flex space-x-4">
                   <a
@@ -208,7 +207,7 @@ const Contact = () => {
                     <Linkedin className="w-5 h-5" />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </Card>
 
             {/* Google Maps Embed */}

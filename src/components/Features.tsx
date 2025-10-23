@@ -1,33 +1,44 @@
 import { Card } from "@/components/ui/card";
-import { Award, Users, Clock, Shield, TrendingUp, Headphones } from "lucide-react";
+import {
+  Award,
+  Users,
+  Clock,
+  Shield,
+  TrendingUp,
+  Headphones,
+} from "lucide-react";
 
 const Features = () => {
   const features = [
     {
       icon: Award,
       title: "Standar Kualitas Tinggi",
-      description: "Setiap produk melalui quality control ketat untuk memastikan hasil terbaik",
+      description:
+        "Melalui proses kendali mutu dengan ketat untuk memastikan hasil terbaik",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },
     {
       icon: Users,
       title: "Tim Profesional",
-      description: "Tenaga kerja terlatih dengan pengalaman puluhan tahun di industri",
+      description:
+        "Tenaga kerja terlatih dengan pengalaman di berbagai industri",
       color: "text-accent",
       bgColor: "bg-accent/10",
     },
     {
       icon: Clock,
       title: "Pengiriman Tepat Waktu",
-      description: "Komitmen kami untuk selalu menyelesaikan pesanan sesuai deadline",
+      description:
+        "Komitmen untuk selalu menyelesaikan pesanan sesuai tenggat waktu",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },
     {
       icon: Shield,
       title: "Proses Higienis & Aman",
-      description: "Fasilitas produksi modern dengan standar kebersihan internasional",
+      description:
+        "Fasilitas produksi modern dengan standar kebersihan internasional",
       color: "text-accent",
       bgColor: "bg-accent/10",
     },
@@ -38,13 +49,13 @@ const Features = () => {
       color: "text-primary",
       bgColor: "bg-primary/10",
     },
-    {
-      icon: Headphones,
-      title: "Layanan Pelanggan 24/7",
-      description: "Tim support siap membantu kebutuhan Anda kapan saja",
-      color: "text-accent",
-      bgColor: "bg-accent/10",
-    },
+    // {
+    //   icon: Headphones,
+    //   title: "Layanan Pelanggan 24/7",
+    //   description: "Tim support siap membantu kebutuhan Anda kapan saja",
+    //   color: "text-accent",
+    //   bgColor: "bg-accent/10",
+    // },
   ];
 
   return (
@@ -55,9 +66,10 @@ const Features = () => {
             Mengapa Memilih Kami?
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Keunggulan yang membuat kami menjadi pilihan utama untuk jasa linting rokok
-          </p>
+          {/* <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Keunggulan yang membuat kami menjadi pilihan utama untuk Mitra
+            Produksi Terpercaya
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">

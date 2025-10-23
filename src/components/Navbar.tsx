@@ -94,14 +94,14 @@ const Navbar = () => {
             >
               Galeri
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("faq")}
               className={`${
                 isScrolled ? "text-foreground" : "text-white"
               } hover:text-primary transition-smooth font-medium`}
             >
               FAQ
-            </button>
+            </button> */}
             <Button
               onClick={() => scrollToSection("kontak")}
               className="bg-primary text-primary-foreground hover:opacity-90"
@@ -148,12 +148,12 @@ const Navbar = () => {
             >
               Galeri
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("faq")}
               className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
             >
               FAQ
-            </button>
+            </button> */}
             <Button
               onClick={() => scrollToSection("kontak")}
               className="w-full bg-primary text-primary-foreground"

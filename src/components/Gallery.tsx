@@ -23,9 +23,9 @@ const Gallery = () => {
             Galeri Kami
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          {/* <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Lihat fasilitas produksi dan proses kerja kami
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

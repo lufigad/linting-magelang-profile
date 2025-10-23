@@ -11,12 +11,12 @@ const Footer = () => {
             <p className="text-sm">
               © {currentYear} PT Satu Desa Mandiri. All rights reserved.
             </p>
-            <p className="text-xs text-background/70 mt-1">
+            {/* <p className="text-xs text-background/70 mt-1">
               Jasa Produksi Profesional di Magelang
-            </p>
+            </p> */}
           </div>
 
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -44,7 +44,7 @@ const Footer = () => {
             >
               <Linkedin className="w-4 h-4" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
